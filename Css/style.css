@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/700&family=Roboto:wght@400;700&display=swap");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/buttons.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/card.css");
+
+
+a{
+	text-decoration: none;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+
+body {
+	font-family: 'Roboto', serif
+	font-size:18px;
+	margin: 0px;
+	background-color: #black;
+
+}
+
+h1,h2,h3 {
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+ {
+	width: 60px;
+
+} 
+
+/* Colors and fonts */
+
+body {
+	background-color: #E5F4E3;
+	color:#7C0B2B;
+	font-family: 'Merriweather', serif;
+	font-size 18px;
+	font-weight:180;
+	letter-spacing: 1px
+}
+
+h1,h2 {
+	font-family: 'Roboto', sans-serif;}
+
+h1 {
+	color: #3E000C;
+	font-weight: 700;
+	font-size: 40px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+h2 {
+	text-decoration: underline;
+	color: #3E000C;
+	font-weight: 500;
+	font-size: 25px;
+	text-decoration: underline;
+
+ }
+
+a {
+	color: #83BCA9;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	transition: color 0.4s ease;
+	text-decoration: none;
+
+}
+
+a:hover {
+ 	color: #DF928E;
+ } 
+
+ 
+ div {
+ 	text-align: justify;
+ 	padding: 60px;
+ 	border-radius: 4px;
+ 	box-shadow: 0 15px 35px rgba(50,50,93,.1);
+ 	
+ 	
+}
+
+/*Custom design with class*/
+
+
+.container{
+	width: 750px
+	margin: 50px auto;
+	background-color: white
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: white
+	padding: 40px;
+	border-radius: 4px;
+	margin: 30px
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	text-align: center;
+}
+
+.img-circle {
+	display: block;
+ 	max-height: 50vh;
+ 	max-width: auto;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	border-radius: 50%;
+ 	border: 4px solid darkgreen
+}
+	
+.btn-blue {
+	color: white;
+	background-color: #83BCA9;
+	padding: 15px 20px;	
+	border-radius: 4px
+
+
+}
+
+.btn-blue:hover {
+ 	background-color: black;
+ 	color: white
+ }
+
+ .list-horizontal{
+ 	list-style: none;
+ 	padding-left: 0px;
+
+ }
+
+ .list-horizontal li {
+ 	display: inline;
+ 	padding: 0px
+ 	color: #83BCA9;
+ 	word-spacing: 40px 
+ }
+
+#introduction p {
+	margin-bottom: 45px;
+	margin-top: 45px
+}
